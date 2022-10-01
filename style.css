@@ -1,0 +1,67 @@
+@font-face {
+  font-family: 'Sunset';
+  src: url('Sunset Club Free Trial.ttf');
+}
+body{
+  /* display: flex; */
+  margin: 0;
+  background-color: rgb(115, 34, 191);
+}
+.title{
+  font-family: 'Sunset';
+  letter-spacing: 5px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+header{
+  margin-bottom: 5rem;
+}
+h1{
+  margin: 40px auto 40px;
+  font-size: 5vw;
+  border: solid 5px;
+  border-color: greenyellow;
+  color: greenyellow;
+  padding: 10px 70px;
+
+  text-shadow:  0 0 10px greenyellow, 
+               0 0 20px greenyellow, 
+               0 0 200px white,   
+               0 0 200px white, 
+               0 0 100px white;
+  -webkit-box-shadow:0px 0px 20px 5px greenyellow,
+  inset 0px 0px 20px 5px greenyellow; 
+  box-shadow:  0px 0px 20px 5px greenyellow,
+  inset 0px 0px 20px 5px greenyellow;
+
+}
+/*                                  MAIN                                 */
+.bd{
+  display: grid;
+  grid-template-columns: 50vw 50vw;
+}
+.mt, .jp{
+  border: solid 0.5vw greenyellow;
+  box-shadow:  0px 0px 20px 5px greenyellow;
+  margin: 10vh auto 0vh;
+  width: 25rem;
+}
+img{
+  width: 25rem;
+}
+p{
+  color: greenyellow;
+  font-size: 3vw;
+  font-family: 'Sunset';
+  text-shadow:  0 0 10px greenyellow, 
+               0 0 20px greenyellow, 
+               0 0 200px white,   
+               0 0 200px white, 
+               0 0 100px white;
+}
+a{
+  margin: -2vh auto;
+  text-decoration: none;
+}
